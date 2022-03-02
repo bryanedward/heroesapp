@@ -4,18 +4,19 @@ import { MarvelScreen } from '../components/marvel/MarvelScreen'
 import { Navbar } from '../components/ui/Navbar';
 import { DcScreen} from '../components/dc/DcScreen'
 import { HeroScreen } from '../components/hero/HeroScreen';
+import { SearchScreen } from '../components/search/SearchScreen';
 
 
 export const DashBoard = () => {
   return (
     <>
         <Navbar/>
-            <h1>marvel app!</h1>
         <Routes>
                 <Route path="/" element={<MarvelScreen />} />
+                <Route path='/search' element={<SearchScreen/>}/>
                 <Route path="/marvel" element={<MarvelScreen />} />
                 <Route path="/dc" element={<DcScreen />} />
-                <Route path='/heroe' element={<HeroScreen/>}/>
+                <Route path='/heroe/:id' element={<HeroScreen/>}/>
             </Routes>
     </>
   )
