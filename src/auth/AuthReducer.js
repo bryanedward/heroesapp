@@ -1,12 +1,5 @@
 import { types } from "../types/types";
 
-const loginAuth = {
-    types: types.login,
-    payload: {
-        name:'edward',
-        password: '123'
-    }
-}
 
 export const AuthReducer = ( state ={}, action) => {
     switch (action.type) {

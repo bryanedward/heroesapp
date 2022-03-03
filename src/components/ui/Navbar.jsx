@@ -1,12 +1,21 @@
 import React, { useContext } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import {AuthContext} from '../../auth/AuthContext'
+import { types } from '../../types/types'
 export const Navbar = () => {
 
   const {state} = useContext(AuthContext)
   const navigate = useNavigate()
+
+  const {dispatch} = useContext(AuthContext)
   
+
+  const action = {
+    type: types.logout
+  }
+
   const btnSalir = () => {
+    dispatch(action)
     navigate('/login',{
       replace: true
     })
@@ -20,7 +29,7 @@ export const Navbar = () => {
         className="navbar-brand"
         to="/"
       >
-        Asociaciones
+        HeroApps
       </Link>
 
       <div className="navbar-collapse">
