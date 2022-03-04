@@ -8,8 +8,8 @@ export const SearchScreen = () => {
 
   const navigate = useNavigate()
   const location = useLocation()
-  const [value, setvalue] = useState('')
   const { q = '' } = queryString.parse(location.search)
+  const [value, setvalue] = useState(q)
   const getAllHero = useMemo(() => getByNameHero(q),[q]) 
 
   const btnSearch = (e) => {
@@ -26,7 +26,7 @@ export const SearchScreen = () => {
       <div>
         <form onSubmit={btnSearch}>
           <p>Buscar</p>
-          <input type="text" onChange={valuesInput} />
+          <input type="text" onChange={valuesInput} value={value}/>
           <button className='btn btn-success' onClick={btnSearch}>
             Buscar</button>
         </form>

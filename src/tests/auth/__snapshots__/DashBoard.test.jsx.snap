@@ -1,0 +1,664 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` mostrar dashboard 1`] = `
+Array [
+  <nav
+    className="navbar navbar-expand-sm navbar-dark bg-dark"
+  >
+    <a
+      className="navbar-brand"
+      href="/"
+      onClick={[Function]}
+    >
+      HeroApps
+    </a>
+    <div
+      className="navbar-collapse"
+    >
+      <div
+        className="navbar-nav"
+      >
+        <a
+          aria-current="page"
+          className="nav-item nav-linkactive"
+          href="/marvel"
+          onClick={[Function]}
+        >
+          Marvel
+        </a>
+        <a
+          className="nav-item nav-link"
+          href="/dc"
+          onClick={[Function]}
+        >
+          DC
+        </a>
+        <a
+          className="nav-item nav-link"
+          href="/heroe"
+          onClick={[Function]}
+        >
+          Heroe
+        </a>
+        <a
+          className="nav-item nav-link"
+          href="/search"
+          onClick={[Function]}
+        >
+          Search
+        </a>
+      </div>
+    </div>
+    <div
+      className="navbar-collapse collapse w-100 order-3 dual-collapse2 justify-content-end"
+    >
+      <ul
+        className="navbar-nav ml-auto"
+      >
+        <span
+          className="nav-item nav-link text-info"
+        >
+          brian
+        </span>
+        <button
+          className="nav-item nav-link btn"
+          onClick={[Function]}
+        >
+          Logout
+        </button>
+      </ul>
+    </div>
+  </nav>,
+  <div>
+    <div
+      className="d-flex flex-wrap gap-5"
+    >
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/dc-batman.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Batman
+        </p>
+        <a
+          href="/heroe/dc-batman"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/dc-superman.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Superman
+        </p>
+        <a
+          href="/heroe/dc-superman"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/dc-flash.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Flash
+        </p>
+        <p
+          className="text-muted"
+        >
+          Jay Garrick, Barry Allen, Wally West, Bart Allen
+        </p>
+        <a
+          href="/heroe/dc-flash"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/dc-green.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Green Lantern
+        </p>
+        <p
+          className="text-muted"
+        >
+          Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz
+        </p>
+        <a
+          href="/heroe/dc-green"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/dc-arrow.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Green Arrow
+        </p>
+        <a
+          href="/heroe/dc-arrow"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/dc-wonder.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Wonder Woman
+        </p>
+        <a
+          href="/heroe/dc-wonder"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/dc-martian.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Martian Manhunter
+        </p>
+        <p
+          className="text-muted"
+        >
+          Martian Manhunter
+        </p>
+        <a
+          href="/heroe/dc-martian"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/dc-robin.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Robin/Nightwing
+        </p>
+        <a
+          href="/heroe/dc-robin"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/dc-blue.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Blue Beetle
+        </p>
+        <p
+          className="text-muted"
+        >
+          Dan Garret, Ted Kord, Jaime Reyes
+        </p>
+        <a
+          href="/heroe/dc-blue"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/dc-black.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Black Canary
+        </p>
+        <p
+          className="text-muted"
+        >
+          Dinah Drake, Dinah Lance
+        </p>
+        <a
+          href="/heroe/dc-black"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/marvel-spider.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Spider Man
+        </p>
+        <a
+          href="/heroe/marvel-spider"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/marvel-captain.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Captain America
+        </p>
+        <a
+          href="/heroe/marvel-captain"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/marvel-iron.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Iron Man
+        </p>
+        <a
+          href="/heroe/marvel-iron"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/marvel-thor.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Thor
+        </p>
+        <a
+          href="/heroe/marvel-thor"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/marvel-hulk.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Hulk
+        </p>
+        <a
+          href="/heroe/marvel-hulk"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/marvel-wolverine.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Wolverine
+        </p>
+        <a
+          href="/heroe/marvel-wolverine"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/marvel-daredevil.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Daredevil
+        </p>
+        <a
+          href="/heroe/marvel-daredevil"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/marvel-hawkeye.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Hawkeye
+        </p>
+        <a
+          href="/heroe/marvel-hawkeye"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/marvel-cyclops.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Cyclops
+        </p>
+        <a
+          href="/heroe/marvel-cyclops"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+      <div
+        className="card"
+        style={
+          Object {
+            "width": "13pc",
+          }
+        }
+      >
+        <img
+          alt=""
+          src="assets/marvel-silver.jpg"
+          style={
+            Object {
+              "objectFit": "cover",
+              "width": "100%",
+            }
+          }
+        />
+        <p>
+          Silver Surfer
+        </p>
+        <a
+          href="/heroe/marvel-silver"
+          onClick={[Function]}
+        >
+          ver mas...
+        </a>
+      </div>
+    </div>
+  </div>,
+]
+`;
