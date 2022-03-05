@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`componente del login validar el componente login 1`] = `
+<div>
+  <h4>
+    login
+  </h4>
+  <button
+    onClick={[Function]}
+  >
+    Guardar
+  </button>
+</div>
+`;
